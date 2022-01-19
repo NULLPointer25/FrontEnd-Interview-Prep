@@ -1,4 +1,4 @@
-JAVASCRIPT Interview questions.
+JAVASCRIPT Questions.
 
 
 1. Difference between null and undefined? 
@@ -21,7 +21,7 @@ It simply allows us to write promises based code as if it was synchronous and it
 Await function is used to wait for the promise. It could be used within the async block only. It makes the code wait until the promise returns a result. It only makes the async block wait.
 
 
-4. Javascript is single threaded or multiple threaded and asynchronous or synchronous? 
+4. Javascript is single threaded or multiple threaded and asynchronous or synchronous? 
 -> JavaScript is always synchronous and single-threaded. If you're executing a JavaScript block of code on a page then no other JavaScript on that page will currently be executed.
 
 -JavaScript is only asynchronous in the sense that it can make, for example, Ajax calls. The Ajax call will stop executing and other code will be able to execute until the call returns (successfully or otherwise), at which point the callback will run synchronously. No other code will be running at this point. It won't interrupt any other code that's currently running.
@@ -35,13 +35,13 @@ Await function is used to wait for the promise. It could be used within the asyn
 -> A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. The above example is a synchronous callback, as it is executed immediately.
 
 
-7. What is Closure how do we implement closure?
+7. What is Closure how do we implement closure?
 -> Closure means that an inner function always has access to the vars and parameters of its outer function, even after the outer function has returned.
 
 -Closures are typically implemented with a special data structure that contains a pointer to the function code, plus a representation of the function's lexical environment (i.e., the set of available variables) at the time when the closure was created.
 
 
-8. What is Debouncing and throttling ?
+8. What is Debouncing and throttling?
 -> Throttling is a way to limit the number of times a function can be called. Perform a function, then drop all the function calls until a certain period of time, Debouncing is a way to delay the execution of a function to a later period until there is some ongoing action.
 
 
@@ -55,7 +55,8 @@ Await function is used to wait for the promise. It could be used within the asyn
 - The event loop works by making a request to some internal or external "event provider" (that generally blocks the request until an event has arrived), then calls the relevant event handler ("dispatches the event").
  
 
-11. What is the use of filter, map, reduce ?
+11. What is the use of filter, map,reduce?
+->
 -Filter
 The filter() method takes each element in an array and it applies a conditional statement against it. If this conditional returns true, the element gets pushed to the output array. If the condition returns false, the element does not get pushed to the output array.
 

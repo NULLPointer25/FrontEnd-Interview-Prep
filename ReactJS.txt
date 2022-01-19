@@ -1,5 +1,4 @@
-React Js Interview questions
-
+ReactJs Questions
 
 
 1. What is React Js?
@@ -89,7 +88,7 @@ Step-3 Next add render() method, which is responsible for how the component shou
 -> Routing is a process in which a user is directed to different pages based on their action or request. ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application.
 
 
-15. How do you programmatically  navigate to other page? 
+15. How do you programmatically navigate to other page? 
 -> If you want programmatically navigation from one page to another then you should use history. push method. In other words, we can say if you want to manage the redirection on button click then you can use it. This function will push a new entry in the history stack.
  
 
