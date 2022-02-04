@@ -185,4 +185,4 @@ AWS is a comprehensive, easy to use computing platform offered Amazon. The platf
 
 
 31. How to run bootstrap ?
-Navigate to the root /bootstrap/ directory, then run npm install . npm will look at the package.json file and automatically install the necessary local files and then copy the code in index.js or app.js 
+Navigate to the root /bootstrap/ directory, then run npm install . npm will look at the package.json file and automatically install the necessary local files and then copy the code in index.js or app.js
